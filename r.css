@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+.main {
+	margin: 0 auto;
+	width: 100em;
+	overflow: auto;
+}
+
+#content {
+	background-color: #EEE;
+	border-top: 0.1em solid #666;
+	border-bottom: 0.1em solid #999;
+}
+
+.algorithm {
+	text-align: center;
+}
+
+.algorithm li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0.3em;
+}
+
+.algorithm li img {
+	margin: 0.1em;
+}
+
+.algorithm li p {
+	text-align: center;
+	font-size: 1.7em;
+}
+
+.cube {
+	float: right;
+	clear: right;
+}
